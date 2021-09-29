@@ -51,7 +51,7 @@ public class ArrayList_1_2_Array_ArrayList {
 		System.out.println(ar.get(2));
 		
 		//using size() we will print one index value
-		System.out.println(ar.get(ar.size()));  //last value
+		System.out.println(ar.get(ar.size()-1));  //last value
 		
 		//print all vlues by looping
 		
