@@ -60,7 +60,7 @@ public class ArrayList_5_Manipulation {
 	
 		//will return which we removed
 		ar.retainAll(ar1);
-		
+		// retain all method doesn't really represent it. If you add some value, it put the common elements
 		for(int i=0;i<ar.size();i++) {   //will show you only which we removed and now retaining
 			System.out.println(ar.get(i));
 		}
